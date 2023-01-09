@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+  	font-family: 'Poppins', sans-serif;
+}
+#login-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: gray;
+}
+#login-form .box form {
+	display:grid;
+	background: #252525;
+	height: 300px;
+	width: 300px;
+	padding: 50px;
+	border-radius: 10px;
+}
+#login-form .box form h2 {
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+.inputBox {
+	margin-top: 40px;
+}
+.inputBox input {
+	color: white;
+	width: 300px;
+	padding: 10px 0;
+	background: transparent;
+	border: 1px solid aqua;
+	border-radius: 4px;
+}
+.inputBox input:hover{
+	border: 1px solid green;
+}
+input[type="submit"]
+{
+	border: none;
+	background: aqua;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 160px;
+	padding: 10px 20px;
+	margin-top: 30px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+input[type="submit"]:hover{
+	background-color: green;
+	color: white;
+}
+input[type="reset"]
+{
+	border: none;
+	padding: 10px 20px;
+	background: aqua;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 116px;
+	margin-top: 30px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+input[type="reset"]:hover{
+	background-color: green;
+	color: white;
+}
